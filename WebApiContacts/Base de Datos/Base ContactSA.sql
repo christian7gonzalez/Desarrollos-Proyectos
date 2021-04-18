@@ -2,7 +2,7 @@ CREATE DATABASE ContactSA
 GO
 USE ContactSA
 GO
-CREATE TABLE Contacts
+CREATE TABLE Contact
 (
 	id int IDENTITY(1,1),
 	firstName VARCHAR(50) NOT NULL,
@@ -14,8 +14,8 @@ CREATE TABLE Contacts
 )
 GO
 --Datos de prueba
-INSERT INTO Contacts
+INSERT INTO Contact
 VALUES ('Sujeto1', 'Prueba1','Google','Sujeto1.Prueba1@Google.com.ar','+542228473656')
 GO
-INSERT INTO Contacts
+INSERT INTO Contact
 VALUES ('Sujeto2', 'Prueba2','Google','Sujeto2.Prueba2@Google.com.ar','0222415212343')

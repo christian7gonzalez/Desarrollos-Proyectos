@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Data;
 using WebApi.Entity;
 using Criptografia;
 
@@ -23,7 +24,7 @@ namespace WebApi.Data.Access
         {
            
             List<Contact> MenusList = new List<Contact>();
-            string querySql = "SELECT * FROM Contacts";
+            string querySql = "SELECT * FROM Contact";
             try
             {
                 using (SqlConnection con = new SqlConnection(connectionString))
@@ -59,13 +60,15 @@ namespace WebApi.Data.Access
         public Contact GetContact(int id)
         {
             Contact objContact = new Contact();
-            string querySql = "SELECT * FROM Contacts WHERE id = " + id;
+            string querySql = "Contact_CxID";
             try
             {
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {
                     con.Open();
                     SqlCommand cmd = new SqlCommand(querySql, con);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@id", id);
                     SqlDataReader dr = cmd.ExecuteReader();
                     if (dr != null)
                     {
@@ -96,7 +99,7 @@ namespace WebApi.Data.Access
             {
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {
-                    SqlCommand cmd = new SqlCommand("INSERT INTO Contacts VALUES(@firstName, @lastName, @company, @email, @phoneNumber) SELECT @@IDENTITY", con);
+                    SqlCommand cmd = new SqlCommand("Contact_A", con);
                     cmd.Parameters.AddWithValue("@firstName", objContacts.FirstName);
                     cmd.Parameters.AddWithValue("@lastName", objContacts.LastName);
                     cmd.Parameters.AddWithValue("@company", objContacts.Company);
@@ -120,7 +123,8 @@ namespace WebApi.Data.Access
             {
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {
-                    SqlCommand cmd = new SqlCommand("UPDATE Contacts SET firstName = @firstName, lastName = @lastName, company = @company, email = @email, phoneNumber = @phoneNumber WHERE id =" + obj.Id, con);
+                    SqlCommand cmd = new SqlCommand("Contact_M", con);
+                    cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@firstName", obj.FirstName);
                     cmd.Parameters.AddWithValue("@lastName", obj.LastName);
                     cmd.Parameters.AddWithValue("@company", obj.Company);
@@ -142,7 +146,9 @@ namespace WebApi.Data.Access
             {
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {
-                    SqlCommand cmd = new SqlCommand("DELETE FROM Contacts WHERE id =" + id, con);
+                    SqlCommand cmd = new SqlCommand("Contact_B", con);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.Add(new SqlParameter("@id",id)); //muetro otra manera de enviar parametro al SP
                     con.Open();
                     cmd.ExecuteNonQuery();
                     con.Close();

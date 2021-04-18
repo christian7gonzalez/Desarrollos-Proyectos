@@ -34,7 +34,7 @@ namespace WebApiContacts.Properties
             try
             {
                 contact = cBuss.GetContact(id);
-                return Ok("Exito\n\n" + contact);
+                return Ok(contact);
             }
             catch (Exception ex)
             {
@@ -70,7 +70,7 @@ namespace WebApiContacts.Properties
             }
         }
 
-        [HttpDelete]
+        [HttpDelete("id={id}")]
         public IActionResult DeleteContact(int id)
         {
             try
