@@ -1,0 +1,6 @@
+C:\Users\Christian Gonzalez\source\repos\Desarrollos-Proyectos\WebApiContacts\WebApi.Entitys\bin\Debug\WebApi.Entity.dll
+C:\Users\Christian Gonzalez\source\repos\Desarrollos-Proyectos\WebApiContacts\WebApi.Entitys\bin\Debug\WebApi.Entity.pdb
+C:\Users\Christian Gonzalez\source\repos\Desarrollos-Proyectos\WebApiContacts\WebApi.Entitys\obj\Debug\WebApi.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Christian Gonzalez\source\repos\Desarrollos-Proyectos\WebApiContacts\WebApi.Entitys\obj\Debug\WebApi.Entity.dll
+C:\Users\Christian Gonzalez\source\repos\Desarrollos-Proyectos\WebApiContacts\WebApi.Entitys\obj\Debug\WebApi.Entity.pdb
+C:\Users\Christian Gonzalez\source\repos\Desarrollos-Proyectos\WebApiContacts\WebApi.Entitys\obj\Debug\WebApi.Entity.csprojAssemblyReference.cache

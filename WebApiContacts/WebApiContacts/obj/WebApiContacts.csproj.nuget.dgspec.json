@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApiContacts\\WebApiContacts.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\Criptografia\\Criptografia.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\Criptografia\\Criptografia.csproj",
+        "projectName": "Criptografia",
+        "projectPath": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\Criptografia\\Criptografia.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Business\\WebApi.Business.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Business\\WebApi.Business.csproj",
+        "projectName": "WebApi.Business",
+        "projectPath": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Business\\WebApi.Business.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Data.Access\\WebApi.Data.Access.DAL.csproj": {
+                "projectPath": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Data.Access\\WebApi.Data.Access.DAL.csproj"
+              },
+              "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Entitys\\WebApi.Entity.csproj": {
+                "projectPath": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Entitys\\WebApi.Entity.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Data.Access\\WebApi.Data.Access.DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Data.Access\\WebApi.Data.Access.DAL.csproj",
+        "projectName": "WebApi.Data.Access.DAL",
+        "projectPath": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Data.Access\\WebApi.Data.Access.DAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\Criptografia\\Criptografia.csproj": {
+                "projectPath": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\Criptografia\\Criptografia.csproj"
+              },
+              "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Entitys\\WebApi.Entity.csproj": {
+                "projectPath": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Entitys\\WebApi.Entity.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Entitys\\WebApi.Entity.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Entitys\\WebApi.Entity.csproj",
+        "projectName": "WebApi.Entity",
+        "projectPath": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Entitys\\WebApi.Entity.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApiContacts\\WebApiContacts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApiContacts\\WebApiContacts.csproj",
+        "projectName": "WebApiContacts",
+        "projectPath": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApiContacts\\WebApiContacts.csproj",
+        "packagesPath": "C:\\Users\\Christian Gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApiContacts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Christian Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Business\\WebApi.Business.csproj": {
+                "projectPath": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Business\\WebApi.Business.csproj"
+              },
+              "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Entitys\\WebApi.Entity.csproj": {
+                "projectPath": "C:\\Users\\Christian Gonzalez\\source\\repos\\Desarrollos-Proyectos\\WebApiContacts\\WebApi.Entitys\\WebApi.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+C:\Users\Christian Gonzalez\source\repos\Desarrollos-Proyectos\WebApiContacts\Criptografia\bin\Debug\Criptografia.dll
+C:\Users\Christian Gonzalez\source\repos\Desarrollos-Proyectos\WebApiContacts\Criptografia\bin\Debug\Criptografia.pdb
+C:\Users\Christian Gonzalez\source\repos\Desarrollos-Proyectos\WebApiContacts\Criptografia\obj\Debug\Criptografia.csprojAssemblyReference.cache
+C:\Users\Christian Gonzalez\source\repos\Desarrollos-Proyectos\WebApiContacts\Criptografia\obj\Debug\Criptografia.csproj.CoreCompileInputs.cache
+C:\Users\Christian Gonzalez\source\repos\Desarrollos-Proyectos\WebApiContacts\Criptografia\obj\Debug\Criptografia.dll
+C:\Users\Christian Gonzalez\source\repos\Desarrollos-Proyectos\WebApiContacts\Criptografia\obj\Debug\Criptografia.pdb
