@@ -1,4 +1,4 @@
---SP SELECT Contact por id--
+--SP Modificar Contact --
 IF EXISTS (SELECT * FROM sysobjects WHERE name = 'Contact_M')
 DROP PROCEDURE Contact_M
 GO
